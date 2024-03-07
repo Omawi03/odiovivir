@@ -1,41 +1,89 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HUB</title>
-</head>
+    <head>
+        <script defer
+            src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HUB</title>
+    </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class=" col-3">
-                <menu />
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class=" col-9">
-                <div class="row">
-                    <div class="col-6 fs-3 fw-bold text-end mt-5">
-                        <h1 class="text-danger">NOTICIAS RECIENTES</h1>
-                        <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus nibh id diam mattis
-                            euismod. Integer in eros justo. Integer eget pulvinar urna, et cursus leo. Proin molestie
-                            eros sed tellus cursus, vel vestibulum lacus auctor. Quisque varius augue vel aliquet
-                            efficitur. Ut enim lectus, rhoncus et lectus vel, dignissim fermentum lorem. Phasellus
-                            congue interdum dapibus. </p>
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="">
-                                    <img class="image-fluid" src="./assets/perit.jpg" />
-                                </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center fs-1">NOTICIAS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center fs-5 mx-auto p-2 ">Lorem ipsum dolor
+                        sit amet,
+                        consectetur adipiscing elit. Quisque leo mauris,
+                        tincidunt nec aliquam sed, vulputate sed sem. Donec
+                        molestie efficitur tincidunt. Maecenas consectetur
+                        finibus imperdiet. Mauris viverra blandit nulla, et
+                        convallis nibh cursus eget. Nullam tincidunt molestie
+                        blandit. Class aptent taciti sociosqu ad litora torquent
+                        per conubia nostra, per inceptos himenaeos. Phasellus
+                        sollicitudin mi id egestas aliquet. Donec vitae lectus
+                        vel mi rhoncus molestie sit amet nec tortor. Cras
+                        imperdiet lacinia vestibulum.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Aquí irá el carrusel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</body>
+
+    </body>
 
 </html>
