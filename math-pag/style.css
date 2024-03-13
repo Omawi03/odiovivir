@@ -1,0 +1,40 @@
+#toggleMenuBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px; /* Ancho cuadrado */
+    height: 40px; /* Alto cuadrado */
+    border: none;
+    border-radius: 5px;
+    background-color: #122d70;
+    color: white;
+}
+
+#menuContainer{
+    background-color: #122d70;
+
+}
+
+#carouselExampleSlidesOnly{
+    padding-left: 420px;
+}
+
+#menu{
+    padding-top: 20px;
+}
+
+body{
+    background-color: #E3DAC9;
+}
+
+#logo-unison{
+    margin-left: 40px;
+    width: 200px;
+    height: 220px;
+}
+
+#menu-boton{
+    padding-right: 15px;
+    width: 30px;
+    height: 30px;
+}

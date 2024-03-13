@@ -1,89 +1,81 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <script defer
-            src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-            href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>HUB</title>
-    </head>
+<head>
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HUB</title>
+   
+</head>
 
-    <body>
+<body>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0" id="menuContainer">
+                <div
+                    class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <img src="assets/logo.png" alt="" id="logo-unison">
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="#">Home</a>
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold fs-5">INICIO</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold fs-5">CONVOCATORIA</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold fs-5">HORARIOS</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold fs-5">PREGUNTAS</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold fs-5">PRACTICA</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center fs-1">NOTICIAS</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center fs-5 mx-auto p-2 ">Lorem ipsum dolor
-                        sit amet,
-                        consectetur adipiscing elit. Quisque leo mauris,
-                        tincidunt nec aliquam sed, vulputate sed sem. Donec
-                        molestie efficitur tincidunt. Maecenas consectetur
-                        finibus imperdiet. Mauris viverra blandit nulla, et
-                        convallis nibh cursus eget. Nullam tincidunt molestie
-                        blandit. Class aptent taciti sociosqu ad litora torquent
-                        per conubia nostra, per inceptos himenaeos. Phasellus
-                        sollicitudin mi id egestas aliquet. Donec vitae lectus
-                        vel mi rhoncus molestie sit amet nec tortor. Cras
-                        imperdiet lacinia vestibulum.</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Aquí irá el carrusel -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide"
-                        data-bs-ride="carousel">
+            <!-- Aqui metan el contenido, sigan mi guia tqm besitos <3 -->
+            <div class="col py-3 ">
+                <h1 class="text-center pt-5 fw-bold">NOTICIAS</h1>
+                <p class="lead text-center ms-1 pt-4 fs-4 fw-bold">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur orci eget libero posuere blandit. Quisque fringilla dui sit amet condimentum scelerisque. Cras porttitor lorem euismod quam faucibus maximus. Etiam dapibus varius mauris finibus dapibus. Praesent a euismod purus, et tempus mi. Suspendisse in nisi placerat, viverra purus nec, mattis mi. Pellentesque consectetur urna vitae blandit lobortis. Nam vel enim elit. Cras sit amet semper sapien.</p>
+                <div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
+                          <div class="carousel-item active">
+                            <img src="assets/8a299b77b6721bfe705602f3f48bddb7.jpg" class="d-block w-30" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/8ec31dc8e3683d62a5545a73a8f02588.jpg" class="d-block w-30" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/ac6dd1e913da9cd6e295770534b119e4.jpg" class="d-block w-30" alt="...">
+                          </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
-            </div>
         </div>
+    </div>
 
-    </body>
+    <button id="toggleMenuBtn" class="btn btn-primary">
+        <img src="assets/boto-menu.png" alt="" id="menu-boton">
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
 
 </html>
